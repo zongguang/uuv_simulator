@@ -14,3 +14,6 @@ The code below able to show a demo environment and send some waypoints to make i
 roslaunch uuv_tutorial_dp_controller start_tutorial_dp_controller_demo.launch
 roslaunch uuv_control_utils send_waypoints_file.launch uuv_name:=rexrov
 ```
+**tracking how waypoints get into the controller for segmentation and writting a node to publish waypoints I want**
+They use InitWaypointsFromFile (details in /uuv_control/uuv_control_msgs/srv) a self defined srv to load waypoint lists. 
+I might use GoTo.srv to send my waypoint (I remember I did that before but could not find my node file for that, recreating...)
