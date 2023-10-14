@@ -18,7 +18,7 @@ roslaunch uuv_control_utils send_waypoints_file.launch uuv_name:=rexrov
 ```
 rosrun plotjuggler plotjuggler 
 ```
-Select straming part to **ROS Topic Subscriber**, then press start, selecting the topics info you need then start recording. 
+Select streaming part to **ROS Topic Subscriber**, then press start, selecting the topics info you need then start recording. 
 **Buffer** length need to be adjusted for long term visulization
 **Data plotting** drag the specific data needed into the plot area (multiple are allowed)
 **XY plot** if need xy xz plot, using ctrl to select multiple topics the same time and using **right click** to drag them into the plot
