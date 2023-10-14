@@ -1,8 +1,8 @@
 <launch>
   <arg name="uuv_name" />
-  <arg name="filename" default="$(find uuv_control_utils)/config/example_waypoints.yaml"/>
+  <arg name="filename" default="$(find uuv_control_utils)/config/testing_waypoints.yaml"/>
   <arg name="start_time" default="-1"/>
-  <arg name="interpolator" default="lipb"/>
+  <arg name="interpolator" default="linear"/>
 
   <group ns="$(arg uuv_name)">
     <node pkg="uuv_control_utils"
