@@ -1,6 +1,5 @@
 # Write down what you have learned
-# Current Status (only digging not modifying to tethered bluerov2)
-
+# Current Status (only digging not modifying to tethered bluerov2); T-AUV related testing was modified in (https://github.com/zongguang/tauv_trajectory_control.git) 
 In **uuv_simulator/uuv_trajectory_control/src/path_generator** folder, four types: linear, cubic, dubins & Linear interpolator with polynomial blend (lipb) are here.
 
 **linear**: segment a **Linear Bezier curve** by 0.001 increment size which is a similar segmentation we used for self-developing trajectory controller. 
