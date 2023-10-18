@@ -306,6 +306,7 @@ class TrajectoryGenerator(object):
                 p_msg.acceleration.linear = Vector3(*pnt.a)
                 p_msg.acceleration.angular = Vector3(*pnt.alpha)
                 msg.points.append(p_msg)
+        print('here!!!!!!!!!!!!!!!!!!!{}'.format(msg))
         return msg
 
     def get_path_message(self):

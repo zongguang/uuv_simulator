@@ -17,6 +17,9 @@ roslaunch uuv_control_utils send_waypoints_file.launch uuv_name:=rexrov
 ```
 rosrun plotjuggler plotjuggler 
 ```
+I attached the plot juggler formatting xml file to the package, which called **PID.xml**, you could import the file into the **layout** then the plot settings should be automatically set up. The only issue is for the xy and xz plot, you still need to drag data into the plot.
+
+### general usage
 Select streaming part to **ROS Topic Subscriber**, then press start, selecting the topics info you need then start recording. 
 
 **Buffer** length need to be adjusted for long term visulization
